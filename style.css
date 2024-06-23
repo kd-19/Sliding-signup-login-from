@@ -1,0 +1,141 @@
+@import url(
+"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" ,sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(231, 231, 231);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title{
+    color: cadetblue;
+    letter-spacing: 1.5px;
+}
+
+.container{
+    height: 600px;
+    width: 500px;
+    background-color:azure;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 8px 8px 20px rgb(128, 128, 128) ;
+}
+
+.btn{
+    height: 60px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px 30px rgb(103, 70, 46); 
+}
+
+.login, .signup{
+    font: size 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.slider{
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,
+    rgb(255, 195, 110),
+    rgb(43, 34, 30));
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    transition:all 0.5s ease-in-out ;
+}
+
+.moveslider{
+    left: 250px;
+}
+
+.form-section{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    padding: 20px 0;
+    position: relative;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.form-section-move{
+    left: -500px;
+}
+.login-box, .signup-box{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.login-box{
+    gap: 50px;
+}
+
+.signup-box{
+    gap: 30px;
+}
+
+.element{
+    height: 60px;
+    width: 400px;
+    outline: none;
+    border: node;  
+    color: rgb(77,77,77); 
+    background-color: rgb(240, 240, 240);
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.clkbtn{
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    background-image: linear-gradient(to right,
+            rgb(255, 195, 110),
+            rgb(255, 146, 91));
+}
+
+
+
+
+
+
